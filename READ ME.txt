@@ -1,0 +1,150 @@
+# 🌱 Dry Bean Classification using Machine Learning
+
+## 📌 Project Overview
+
+The **Dry Bean Classification System** is a Machine Learning web application that predicts the variety of a dry bean based on its physical characteristics. The application is built using **Python**, **Scikit-learn**, and **Streamlit**, providing an interactive interface where users can enter bean measurements and instantly receive a prediction along with the model's confidence.
+
+This project demonstrates the complete Machine Learning workflow, including data preprocessing, feature scaling, model training, evaluation, and deployment.
+
+---
+
+## 📊 Dataset
+
+The dataset contains measurements of different dry bean varieties along with their corresponding class labels.
+
+### Features
+
+* Area
+* Perimeter
+* Major Axis Length
+* Minor Axis Length
+* Aspect Ratio
+* Eccentricity
+* Convex Area
+* Equivalent Diameter
+* Extent
+* Solidity
+* Roundness
+* Compactness
+* Shape Factor 1
+* Shape Factor 2
+* Shape Factor 3
+* Shape Factor 4
+
+### Target Classes
+
+* BARBUNYA
+* BOMBAY
+* CALI
+* DERMASON
+* HOROZ
+* SEKER
+* SIRA
+
+---
+
+## 🚀 Features
+
+* Interactive Streamlit web interface
+* Predicts bean variety instantly
+* Displays prediction confidence
+* Visualizes probability distribution using a bar chart
+* Shows an image of the predicted bean variety
+* Clean and responsive user interface
+* Easy to use and beginner-friendly
+
+---
+
+## 🛠 Technologies Used
+
+* Python
+* Streamlit
+* NumPy
+* Pandas
+* Scikit-learn
+* Pillow (PIL)
+* Matplotlib (optional)
+
+---
+
+## 🤖 Machine Learning Model
+
+The application uses a **Support Vector Machine (SVM)** classifier.
+
+### Data Preprocessing
+
+* Label Encoding
+* Standard Feature Scaling
+* Feature Selection
+
+### Model
+
+* Support Vector Machine (SVM)
+* Probability Estimation Enabled
+* Balanced Class Weights
+
+---
+
+## 📁 Project Structure
+
+```
+Dry-Bean-Classification/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── Worksheet in Beans Multiclass Classification (1).csv
+│
+├── images/
+│   ├── BARBUNYA.jpg
+│   ├── BOMBAY.jpg
+│   ├── CALI.jpg
+│   ├── DERMASON.jpg
+│   ├── HOROZ.jpg
+│   ├── SEKER.jpg
+│   └── SIRA.jpg
+│
+└── screenshots/
+    └── app_preview.png
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+### Navigate to the project
+
+### Install dependencies
+
+---
+## ▶️ Run the Application
+
+The application will open automatically in your browser.
+
+---
+
+## 📂 Project Structure
+- `Worksheet in Beans Multiclass Classification (1).csv` → Dataset containing bean measurements and class labels
+- `notebook.ipynb` → Exploratory Data Analysis (EDA), preprocessing, model training
+- `app.py` → Streamlit app for interactive bean classification
+- `README.md` → Project documentation
+---
+
+## 📦 Requirements
+
+```
+Follow requirements.txt and requirements2.txt
+
+---
+
+## 🎯 Future Improvements
+
+* Upload CSV for batch prediction
+* Save trained model using Pickle
+* Deploy on Streamlit Cloud
+* Add model evaluation dashboard
+* Display feature importance
+* Support multiple machine learning algorithms
+* Improve UI with animations
